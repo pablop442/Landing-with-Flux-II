@@ -4,12 +4,11 @@ import ScrollToTop from "./component/scrollToTop";
 
 import Home from "./views/Home.jsx";
 import injectContext from "./store/appContext";
-
+import About from "./views/About.jsx";
 import Navbar from "./views/Components/Navbar/Navbar.jsx";
 import Footer from "./views/Components/Footer.jsx";
 import HeaderTop from "./views/Components/HeaderTop.jsx";
 
-//create your first component
 const Layout = () => {
 	const basename = process.env.BASENAME || "";
 
@@ -21,6 +20,7 @@ const Layout = () => {
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />
+						<Route exact path="/about" component={About} />
 					</Switch>
 					<Footer />
 				</ScrollToTop>
