@@ -1,15 +1,10 @@
-//Import React
 import React from "react";
 import PropTypes from "prop-types";
-
-//Import styles
-import "./BlogCard.scss";
+import "./OfferCard.scss";
 import { FcLike } from "react-icons/fc";
-
-//Import Images
 import BrooklynBridge from "../../../../img/BrooklynBridge.jpg";
 
-const BlogCard = props => {
+const OfferCard = props => {
 	return (
 		<div className="container">
 			<div className="card mb-5" id="blog-card">
@@ -89,8 +84,8 @@ const BlogCard = props => {
 	);
 };
 
-BlogCard.propTypes = {
+OfferCard.propTypes = {
 	src: PropTypes.string,
 	alt: PropTypes.string
 };
-export default BlogCard;
+export default OfferCard;
