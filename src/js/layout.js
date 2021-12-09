@@ -8,6 +8,7 @@ import About from "./views/About.jsx";
 import Navbar from "./views/Components/Navbar/Navbar.jsx";
 import Footer from "./views/Components/Footer.jsx";
 import HeaderTop from "./views/Components/HeaderTop.jsx";
+import Vacations from "./views/Vacations.jsx";
 
 const Layout = () => {
 	const basename = process.env.BASENAME || "";
@@ -21,6 +22,7 @@ const Layout = () => {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/about" component={About} />
+						<Route exact path="/vacations" component={Vacations} />
 					</Switch>
 					<Footer />
 				</ScrollToTop>
