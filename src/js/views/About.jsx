@@ -1,4 +1,3 @@
-//Import React
 import React from "react";
 import PropTypes from "prop-types";
 import AboutHeader from "./Components/AboutHeader.jsx";

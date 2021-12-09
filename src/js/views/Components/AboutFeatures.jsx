@@ -1,4 +1,3 @@
-//Import React
 import React from "react";
 import { BsGeoAltFill, BsPiggyBankFill, BsSunglasses } from "react-icons/bs";
 

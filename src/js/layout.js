@@ -9,7 +9,6 @@ import Navbar from "./views/Components/Navbar/Navbar.jsx";
 import Footer from "./views/Components/Footer.jsx";
 import HeaderTop from "./views/Components/HeaderTop.jsx";
 
-//create your first component
 const Layout = () => {
 	const basename = process.env.BASENAME || "";
 
