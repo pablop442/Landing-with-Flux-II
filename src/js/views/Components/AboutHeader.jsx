@@ -1,7 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const AboutHeader = props => {
+	const linkStyle = {
+		textDecoration: "none"
+	};
 	return (
 		<>
 			<div className="container py-5" style={{ backgroundColor: "#001427" }}>
@@ -11,7 +15,9 @@ const AboutHeader = props => {
 							<h1 className="text-center my-5 display-5 fw-bolder text-white mb-2">{props.title}</h1>
 							<p className="lead text-white-50 mb-4 text-center">{props.paragraph}</p>
 							<button type="button" className="btn btn-primary btn-lg px-4 ">
-								Contact us
+								<Link className="text-white" to="/contact" style={linkStyle}>
+									Contact us
+								</Link>
 							</button>
 						</div>
 					</div>

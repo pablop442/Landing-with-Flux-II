@@ -55,7 +55,7 @@ const Navbar = () => {
 							aria-label="Search"
 						/>
 						<button className="btn btn-info text-nowrap" type="submit">
-							Take me
+							<Link to="/contact">Take me</Link>
 						</button>
 					</form>
 				</div>
