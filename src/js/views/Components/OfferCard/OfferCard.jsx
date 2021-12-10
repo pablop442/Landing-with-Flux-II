@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import "./OfferCard.scss";
 import { FcLike } from "react-icons/fc";
 import BrooklynBridge from "../../../../img/BrooklynBridge.jpg";
+import { Link } from "react-router-dom";
 
 const OfferCard = props => {
 	return (
@@ -28,7 +29,7 @@ const OfferCard = props => {
 								data-bs-toggle="modal"
 								data-bs-target="#exampleModal"
 								data-bs-whatever="@mdo">
-								Contact us for more details
+								<Link to="/contact">Contact us for more details</Link>
 							</button>
 							<div
 								className="modal fade"
