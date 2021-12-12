@@ -15,12 +15,12 @@ const Card = props => {
 				<div className="card-img-overlay">
 					<h5 className="card-title fs-4">{props.title}</h5>
 					<p className="card-text">{props.text}</p>
-					<a
+					<button
 						type="button"
 						className="btn btn-primary position-absolute bottom-0 end-0 mb-2 me-3 fw-bold fs-4">
 						{props.buttonText}
 						<FaChevronCircleRight size="28px" className="mb-1 ms-2" />
-					</a>
+					</button>
 				</div>
 			</div>
 		</div>

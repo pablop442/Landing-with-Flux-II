@@ -10,7 +10,7 @@ import Footer from "./views/Components/Footer.jsx";
 import HeaderTop from "./views/Components/HeaderTop.jsx";
 import Vacations from "./views/Vacations.jsx";
 import Contact from "./views/Contact.jsx";
-import Offers from "./views/Offers";
+import Offers from "./views/Offers.jsx";
 
 const Layout = () => {
 	const basename = process.env.BASENAME || "";
