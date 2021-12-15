@@ -42,9 +42,9 @@ const Navbar = () => {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link active" href="#">
+							<Link className="nav-link active" to="/all-inclusive">
 								All inclusive
-							</a>
+							</Link>
 						</li>
 					</ul>
 					<form className="d-flex">
