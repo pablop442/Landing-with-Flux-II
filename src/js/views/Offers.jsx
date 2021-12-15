@@ -22,6 +22,7 @@ const Offers = () => {
 			<div className="container">
 				<div className="row">
 					<CardWithButton
+						bootstrapClass="col-12 col-md-3 col-lg-3 mb-3"
 						imgSrc={porto}
 						imgAlt="Porto"
 						title="Porto"
@@ -57,6 +58,7 @@ const Offers = () => {
 						text3="42€ per night"
 					/>
 					<CardWithButton
+						bootstrapClass="col-12 col-md-3 col-lg-3 mb-3"
 						imgSrc={paris}
 						imgAlt="Paris"
 						title="Paris"
