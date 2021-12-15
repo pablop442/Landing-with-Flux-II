@@ -4,7 +4,7 @@ import "./ComponentCover.scss";
 
 const ComponentCover = props => {
 	return (
-		<div className="container my-5">
+		<div className="container my-3">
 			<div className="card text-white">
 				<img src={props.imgSrc} className="card-img" alt={props.imgAlt} />
 				<div className="card-img-overlay">
