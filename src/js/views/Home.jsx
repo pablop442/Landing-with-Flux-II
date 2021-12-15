@@ -1,7 +1,4 @@
-//Import React
 import React from "react";
-
-//Import Components
 import CardContainer from "./Components/CardContainer/CardContainer.jsx";
 import Carrousel from "./Components/Carrousel/Carrousel.jsx";
 import SearchBar from "./Components/SearchBar.jsx";

@@ -1,4 +1,3 @@
-//Import React
 import React from "react";
 
 const SearchBar = props => {

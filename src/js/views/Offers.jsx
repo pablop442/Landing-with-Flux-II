@@ -1,7 +1,5 @@
 import React from "react";
-
 import ComponentCover from "./Components/ComponentCover/ComponentCover.jsx";
-
 import offersCover from "../../img/OffersCover.jpg";
 import ListGroup from "./Components/ListGroup.jsx";
 import CardWithButton from "./Components/CardWithButton.jsx";

@@ -1,10 +1,5 @@
-//Import React
 import React from "react";
-
-//Import Style
 import "./CardContainer.scss";
-
-//Import Component
 import BestDestinations from "../BestDestinations.jsx";
 import SpecialOffers from "../SpecialOffers.jsx";
 

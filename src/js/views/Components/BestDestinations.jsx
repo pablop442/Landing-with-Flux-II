@@ -1,10 +1,5 @@
-//Import React
 import React from "react";
-
-//Import Component
 import Card from "./Card.jsx";
-
-//Import Images
 import andorra from "../../../img/AndorraOk.jpg";
 import london from "../../../img/LondonOk.jpg";
 import newDelhi from "../../../img/NewDelhiOk.jpg";

@@ -1,10 +1,5 @@
-//Import React
 import React from "react";
-
-//Import PropTypes
 import PropTypes from "prop-types";
-
-//Import Icons
 import { FaChevronCircleRight } from "react-icons/fa";
 
 const Card = props => {

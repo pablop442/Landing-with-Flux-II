@@ -1,10 +1,5 @@
-//Import React
 import React from "react";
-
-//Import PropTypes
 import PropTypes from "prop-types";
-
-//Import Images
 import Venecia from "../../../../img/Venecia.jpg";
 
 const SlideThree = props => {

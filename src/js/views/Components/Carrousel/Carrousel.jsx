@@ -1,10 +1,5 @@
-// Import React
 import React from "react";
-
-//Import Style
 import "./Carrousel.scss";
-
-//Import Components
 import SlideOne from "./Slide1.jsx";
 import SlideTwo from "./Slide2.jsx";
 import SlideThree from "./Slide3.jsx";
@@ -47,7 +42,7 @@ const Carrousel = () => {
 					<SlideThree
 						title={
 							<>
-								Don´t miss our <i>All Inclusive</i> packages
+								Don't miss our <i>All Inclusive</i> packages
 							</>
 						}
 						text="Make your holiday a once in a lifetime adventure"
